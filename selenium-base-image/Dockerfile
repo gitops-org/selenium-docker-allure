@@ -35,6 +35,3 @@ RUN ln -s /usr/bin/xvfb-chromium /usr/bin/google-chrome \
 RUN ln -s /usr/bin/geckodriver /usr/bin/chromium-browser \
     && chmod 777 /usr/bin/geckodriver \
     && chmod 777 /usr/bin/chromium-browser
-
-
-CMD ["/bin/bash"]
