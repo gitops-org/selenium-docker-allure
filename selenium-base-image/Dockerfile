@@ -9,7 +9,7 @@ RUN apt-get update && apt-get install -yq \
     xsel \
     unzip \
     python-pytest \
-    libgconf2-4 \
+    # libgconf2-4 \
     libncurses5 \
     libxml2-dev \
     libxslt-dev \
