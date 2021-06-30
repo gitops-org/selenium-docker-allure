@@ -6,15 +6,15 @@ RUN apt-get update && apt-get install -yq \
     chromium \
     git-core \
     xvfb \
-    xsel=1.2.0-2+b1 \
+    xsel \
     unzip \
-    python-pytest=3.0.6-1 \
-    libgconf2-4=3.2.6-4+b1 \
-    libncurses5=6.0+20161126-1+deb9u2 \
-    libxml2-dev=2.9.4+dfsg1-2.2+deb9u2 \
+    python-pytest \
+    libgconf2-4 \
+    libncurses5 \
+    libxml2-dev \
     libxslt-dev \
     libz-dev \
-    xclip=0.12+svn84-4+b1
+    xclip
 
 # GeckoDriver v0.19.1
 RUN wget -q "https://github.com/mozilla/geckodriver/releases/download/v0.19.1/geckodriver-v0.19.1-linux64.tar.gz" -O /tmp/geckodriver.tgz \
