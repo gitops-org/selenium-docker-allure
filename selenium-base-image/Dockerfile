@@ -1,12 +1,12 @@
 FROM python:2.7-stretch
 
 RUN apt-get update && apt-get install -yq \
-    firefox-esr=52.6.0esr-1~deb9u1 \
-    chromium=62.0.3202.89-1~deb9u1 \
-    git-core=1:2.11.0-3+deb9u2 \
-    xvfb=2:1.19.2-1+deb9u2 \
+    firefox-esr \
+    chromium \
+    git-core \
+    xvfb \
     xsel=1.2.0-2+b1 \
-    unzip=6.0-21 \
+    unzip \
     python-pytest=3.0.6-1 \
     libgconf2-4=3.2.6-4+b1 \
     libncurses5=6.0+20161126-1+deb9u2 \
